@@ -28,6 +28,8 @@ work. You can see in the [built page](https://srvanderplas.github.io/reprex-quar
 that the Slides link in the navbar goes to
 `https://srvanderplas.github.io/reprex-quarto-reveal-site/slides/01.onepage.html.onepage.html`
 -- that is, the extension is put on twice.
+It should instead link to [this page](https://srvanderplas.github.io/reprex-quarto-reveal-site/slides/01.onepage.html) 
+or [the slides](https://srvanderplas.github.io/reprex-quarto-reveal-site/slides/01.rjs.html).
 
 I'm linking to the quarto file in the navbar:
 
@@ -40,10 +42,15 @@ I'm linking to the quarto file in the navbar:
         text: Slides
 ```
 
-Now, it would also be nice to be able to specify a stub at the end of the file,
-rather than just an extension (extra dots in filenames drive me nuts),
+Now, it would also be nice to be able to specify a stub at the 
+end of the file, rather than just an extension 
+(extra dots in filenames drive me nuts),
 but even as it's currently configured, something isn't quite working
 correctly.
+
+When `navigate: true` is enabled in the project options, this becomes 
+even more irritating, since a window pops up and gives you a 404 or 
+a missing resource warning.
 
 Desired outcome(s): 
 

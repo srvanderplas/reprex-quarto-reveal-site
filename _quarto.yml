@@ -1,0 +1,29 @@
+project:
+  type: website
+  render:
+    - slides/
+    - index.qmd
+    - README.qmd
+  output-dir: docs
+  preview:
+    port: 4201
+    navigate: false
+
+
+execute:
+  freeze: auto  # re-render only when source changes
+  error: true
+
+website:
+  title: "Reproducible Example"
+  navbar:
+    left:
+      - href: index.html
+        text: Home
+      - href: slides/01.qmd
+        text: Slides
+
+
+format: html
+
+

@@ -1,0 +1,15 @@
+format:
+  revealjs:
+    output-ext: rjs.html
+    theme: default
+    css: ["css/myremark.css"]
+    self_contained: false
+    progress: true
+    menu: true
+  html:
+    output-ext: onepage.html
+search: false
+
+subtitle: "Something awesome"
+
+lightbox: true

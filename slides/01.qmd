@@ -1,0 +1,12 @@
+---
+title: "Presentation"
+---
+
+
+## Cool stuff
+
+![Puppies are adorable](https://cdn.mos.cms.futurecdn.net/BwL2586BtvBPywasXXtzwA-1200-80.jpeg){fig-alt="pic of a puppy"}
+
+## Something else that's awesome
+
+![Otter snuggles](https://media.tenor.com/Gn3Bd_ODSdoAAAAM/hug-kiss.gif){fig-alt="gif of an otter snuggling a baby otter"}
